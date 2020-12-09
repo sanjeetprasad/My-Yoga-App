@@ -5,11 +5,13 @@ import { Register } from "./auth/Register"
 import { NavBar } from "./nav/NavBar"
 import { ApplicationViews } from "./ApplicationViews"
 import './MyYogaApp.css'
+import { logDOM } from "@testing-library/react"
 
 export const MyYogaApp = () => (
    
   <>
   <h1>Welcome to My Yoga App</h1>
+  {/* <img src={`/images/${images.images.mya-logo.png}`} /> */}
   <Route render={ () => { 
      if (localStorage.getItem("app_user_id")) {
          return (
