@@ -2,6 +2,7 @@ import React from "react"
 import { Route } from "react-router-dom"
 import {YogaPoseProvider} from "./knowYourYogaPoses/YogaPoseProvider"
 import {YogaPoseList} from "./knowYourYogaPoses/YogaPoseList"
+import {YogaPoseDetails} from "./knowYourYogaPoses/YogaPoseDetail"
 
 
 export const ApplicationViews = (props) => {
@@ -13,6 +14,12 @@ export const ApplicationViews = (props) => {
                  <Route exact path="/">
                     <YogaPoseList />
                  </Route>
+                 <Route path="/yogaPoses/:yogaPoseId(\d+)" render={
+                      props => {
+                // console.log("props", props)
+                return <YogaPoseDetails {...props} />
+                    }
+                           } />
                 </YogaPoseProvider>
 
          

@@ -13,9 +13,14 @@ export const YogaPose = ({yogaPose}) => (
         // </section>
 
         <>
+         
+          {/* <Link to={`/yogaPoses/${yogaPose.id}`}>
+            YogaPose Name: { yogaPose.english_name }
+            </Link> */}
           <option key={yogaPose.id} value = {yogaPose.id}>
               {yogaPose.english_name}
           </option>
+          
         
         </>
     )

@@ -29,6 +29,13 @@ export const YogaPoseProvider = (props) => {
             .then(getYogaPoses)
     }
 
+    // const getYogaPoseById = (id) => {
+    //     return fetch(`http://localhost:8088/knowYourYogaPoses/${ id }`)
+
+    //         .then(res => res.json())
+    // }
+    const getYogaPoseById = (id) => yogaPoses.find(pose => pose.id === parseInt(id))
+
     /*
         You return a context provider which has the
         `locations` state, the `addLocation` function,
@@ -37,7 +44,7 @@ export const YogaPoseProvider = (props) => {
     */
     return (
         <YogaPoseContext.Provider value={{
-            yogaPoses, addYogaPose, getYogaPoses
+            yogaPoses, addYogaPose, getYogaPoses, getYogaPoseById
         }}>
             {props.children}
         </YogaPoseContext.Provider>
