@@ -27,7 +27,7 @@ export const YogaPoseList = () => {
             
             <select onChange={(pose) => {
                 setYogaPose(pose.target.value)
-                console.log(pose.target[pose.target.options.selectedIndex].label)
+                // console.log(pose.target[pose.target.options.selectedIndex].label)
 
              }}>
             <option value = "0">Please choose your Yoga Pose...</option>
