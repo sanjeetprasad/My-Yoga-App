@@ -11,12 +11,10 @@ export const YogaPose = ({yogaPose}) => (
         //     <p className="benefits">Benefits: {yogaPose.benefits}</p>
             
         // </section>
-
+      
         <>
-         
-          {/* <Link to={`/yogaPoses/${yogaPose.id}`}>
-            YogaPose Name: { yogaPose.english_name }
-            </Link> */}
+          {/* {console.log(yogaPose)} */}
+        
           <option key={yogaPose.id} value = {yogaPose.id}>
               {yogaPose.english_name}
           </option>

@@ -3,6 +3,9 @@ import { Route } from "react-router-dom"
 import {YogaPoseProvider} from "./knowYourYogaPoses/YogaPoseProvider"
 import {YogaPoseList} from "./knowYourYogaPoses/YogaPoseList"
 import {YogaPoseDetails} from "./knowYourYogaPoses/YogaPoseDetail"
+import { YogaSequenceList } from "./myYogaSequences/YogaSequenceList"
+import {YogaSequenceProvider} from "./myYogaSequences/YogaSequenceProvider"
+import {YogaSequenceForm} from "./myYogaSequences/YogaSequenceForm"
 
 
 export const ApplicationViews = (props) => {
@@ -31,10 +34,19 @@ export const ApplicationViews = (props) => {
                 <Route path="/therapeutic-yoga">
                     {/* <TherapeuticYogaPracticeList /> */}
                 </Route>
-
-                <Route path="/yoga-sequence">
-                    {/* <MyYogaSequenceList /> */}
-                </Route>
+            <YogaPoseProvider>
+                <YogaSequenceProvider>
+                    <Route path="/yoga-sequence">
+                         <YogaSequenceList {...props} />
+                     </Route>
+                      <Route path="/yoga-sequence/create" render={
+                          props => <YogaSequenceForm {...props} />
+                              } />
+                </YogaSequenceProvider>
+            </YogaPoseProvider>
+                
+          
+         
 
                 <Route path="/yoga-dashboard">
                     {/* <MyYogaDashboard /> */}

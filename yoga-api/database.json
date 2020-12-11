@@ -445,24 +445,34 @@
       "password": "123456",
       "name": "Alice Nie",
       "id": 2
+    },
+    {
+      "email": "veda@gmail.com",
+      "password": "123456",
+      "name": "veda prasad",
+      "id": 3
     }
   ],
   "dailyYogaPractices": [
     {
       "id": 1,
-      "name": "3 minute yoga"
+      "name": "3 minute yoga",
+      "instruction": "1. Lie flat on the back in the shava-asana (corpse pose). 2. Lie on the stomach with the head turned to one side and the arms alongside the body with palms facing upward. 3. Turn the head and place the chin on the floor. Exhale, bend the knees, reach back with the arms and grasp the right ankle with the right hand and the left ankle with the left hand. 4. While inhaling, slowly raise the legs by pulling the ankles up and raising the knees off the floor while simultaneously lifting the chest off the floor. Hold the inhale breath. The weight of the body should be resting on the abdomen. 5. Tilt the head as far back as possible. Hold the posture as long as you can comfortably hold the inhale breath. 6. Slowly exhale bringing the knees to the floor, release the ankles, slowly bring the legs and arms straight down on the floor and turn the head to one side, assuming the prone posture you began with. "
     },
     {
       "id": 2,
-      "name": "5 minute yoga"
+      "name": "5 minute yoga",
+      "instruction": "1. Lie flat on the back in the shava-asana (corpse pose). 2. Lie on the stomach with the head turned to one side and the arms alongside the body with palms facing upward. 3. Turn the head and place the chin on the floor. Exhale, bend the knees, reach back with the arms and grasp the right ankle with the right hand and the left ankle with the left hand. 4. While inhaling, slowly raise the legs by pulling the ankles up and raising the knees off the floor while simultaneously lifting the chest off the floor. Hold the inhale breath. The weight of the body should be resting on the abdomen. 5. Tilt the head as far back as possible. Hold the posture as long as you can comfortably hold the inhale breath. 6. Slowly exhale bringing the knees to the floor, release the ankles, slowly bring the legs and arms straight down on the floor and turn the head to one side, assuming the prone posture you began with. "
     },
     {
       "id": 3,
-      "name": "10 minute yoga"
+      "name": "10 minute yoga",
+      "instruction": "1. Lie flat on the back in the shava-asana (corpse pose). 2. Lie on the stomach with the head turned to one side and the arms alongside the body with palms facing upward. 3. Turn the head and place the chin on the floor. Exhale, bend the knees, reach back with the arms and grasp the right ankle with the right hand and the left ankle with the left hand. 4. While inhaling, slowly raise the legs by pulling the ankles up and raising the knees off the floor while simultaneously lifting the chest off the floor. Hold the inhale breath. The weight of the body should be resting on the abdomen. 5. Tilt the head as far back as possible. Hold the posture as long as you can comfortably hold the inhale breath. 6. Slowly exhale bringing the knees to the floor, release the ankles, slowly bring the legs and arms straight down on the floor and turn the head to one side, assuming the prone posture you began with. "
     },
     {
       "id": 4,
-      "name": "15 minute yoga"
+      "name": "15 minute yoga",
+      "instruction": "1. Lie flat on the back in the shava-asana (corpse pose). 2. Lie on the stomach with the head turned to one side and the arms alongside the body with palms facing upward. 3. Turn the head and place the chin on the floor. Exhale, bend the knees, reach back with the arms and grasp the right ankle with the right hand and the left ankle with the left hand. 4. While inhaling, slowly raise the legs by pulling the ankles up and raising the knees off the floor while simultaneously lifting the chest off the floor. Hold the inhale breath. The weight of the body should be resting on the abdomen. 5. Tilt the head as far back as possible. Hold the posture as long as you can comfortably hold the inhale breath. 6. Slowly exhale bringing the knees to the floor, release the ankles, slowly bring the legs and arms straight down on the floor and turn the head to one side, assuming the prone posture you began with. "
     }
   ],
   "tharepaticYogaPractices": [
@@ -481,7 +491,6 @@
     {
       "id": 4,
       "name": "yoga sequence for digestion"
-      
     },
     {
       "id": 5,
@@ -504,6 +513,28 @@
       "instructions": "",
       "userId": 1,
       "dailyYogaPracticeId": 1
+    },
+    {
+      "title": "Back bend Yoga Sequence",
+      "yogaSequenceInstruction": "1ghhjjj 2jjkk",
+      "id": 2
+    },
+    {
+      "title": "wwwww",
+      "instruction": "qqqqqq",
+      "id": 3
+    },
+    {
+      "title": "assdf",
+      "yogaPoseId": null,
+      "instruction": "asdf",
+      "id": 4
+    },
+    {
+      "title": "rrrrrrrrr",
+      "yogaPoseId": null,
+      "instruction": "pppppp",
+      "id": 5
     }
   ],
   "knowYourMyYogas": [

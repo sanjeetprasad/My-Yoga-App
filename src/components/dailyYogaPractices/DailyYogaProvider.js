@@ -27,12 +27,12 @@ export const DailyYogaProvider = (props) => {
 
     //         .then(res => res.json())
     // }
-    // const getYogaPoseById = (id) => yogaPoses.find(pose => pose.id === parseInt(id))
+     const getDailyYogaById = (id) => dailyYogas.find(pose => pose.id === parseInt(id))
 
 
     return (
         <DailyYogaContext.Provider value={{
-            dailyYogas, addDailyYoga, getDailyYogas
+            dailyYogas, addDailyYoga, getDailyYogas, getDailyYogaById
         }}>
             {props.children}
         </DailyYogaContext.Provider>
