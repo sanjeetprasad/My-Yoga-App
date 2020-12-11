@@ -11,13 +11,13 @@ export const YogaPoseList = () => {
     const { yogaPoses, getYogaPoses } = useContext(YogaPoseContext)
     
     useEffect(() => {
-        console.log("YogaPoseList: Initial render before data")
+        // console.log("YogaPoseList: Initial render before data")
         getYogaPoses()
     }, [])
     
     useEffect(() => {
-        console.log("YogaPoseList: Location state changed")
-        console.log(yogaPoses)
+        // console.log("YogaPoseList: Location state changed")
+        // console.log(yogaPoses)
     }, [yogaPoses])
 
     const [yogaPose, setYogaPose] = useState(0)
@@ -41,6 +41,3 @@ export const YogaPoseList = () => {
     )
 }
 
-//   <Link to={`/yogaPose/${yogaPose.id}`}>
-        //       {props.yogaPose}
-        //   </Link>
