@@ -6,6 +6,9 @@ import {YogaPoseDetails} from "./knowYourYogaPoses/YogaPoseDetail"
 import { YogaSequenceList } from "./myYogaSequences/YogaSequenceList"
 import {YogaSequenceProvider} from "./myYogaSequences/YogaSequenceProvider"
 import {YogaSequenceForm} from "./myYogaSequences/YogaSequenceForm"
+import { DailyYogaProvider } from "./dailyYogaPractices/DailyYogaProvider"
+import {DailyYogaList}  from "./dailyYogaPractices/DailyYogaList"
+import {DailyYogaDetail} from "./dailyYogaPractices/DailyYogaDetail"
 
 
 export const ApplicationViews = (props) => {
@@ -26,14 +29,22 @@ export const ApplicationViews = (props) => {
                 </YogaPoseProvider>
 
          
-                {/* Render the animal list when http://localhost:3000/animals */}
+                <DailyYogaProvider>
                 <Route path="/daily-yoga">
-                    {/* <DailyYogaPracticeList /> */}
+                    <DailyYogaList />
                 </Route>
+                <Route path="/daily-yoga/:dailyYogaId(\d+)" render={
+                      props => {
+                // console.log("props", props)
+                return <DailyYogaDetail {...props} />
+                    }
+                           } />
+                </DailyYogaProvider>
 
                 <Route path="/therapeutic-yoga">
                     {/* <TherapeuticYogaPracticeList /> */}
                 </Route>
+
             <YogaPoseProvider>
                 <YogaSequenceProvider>
                     <Route path="/yoga-sequence">
