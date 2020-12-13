@@ -15,7 +15,9 @@ export const DailyYogaDetail = ({id}) => {
         <section className="dailyYoga">
             <h3 className="dailyYoga__name">Daily Yoga Name: {dailyYoga.name}</h3>
             <p className="instruction">Instruction: {dailyYoga.instruction}</p>
-             
+            <button >
+            Save this sequence.
+            </button>
          </section>
 
        

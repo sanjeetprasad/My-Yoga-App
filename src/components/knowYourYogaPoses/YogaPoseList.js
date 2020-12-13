@@ -35,6 +35,7 @@ export const YogaPoseList = () => {
         {
             yogaPoses.map(singlePose => <YogaPose key={singlePose.id} yogaPose={singlePose}/>)
         }
+        
         </select>
         <YogaPoseDetails id= {yogaPose} />
         </div>
