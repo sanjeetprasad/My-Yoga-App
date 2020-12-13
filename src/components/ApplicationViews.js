@@ -9,6 +9,11 @@ import {YogaSequenceForm} from "./myYogaSequences/YogaSequenceForm"
 import { DailyYogaProvider } from "./dailyYogaPractices/DailyYogaProvider"
 import {DailyYogaList}  from "./dailyYogaPractices/DailyYogaList"
 import {DailyYogaDetail} from "./dailyYogaPractices/DailyYogaDetail"
+import { TherapeuticYoga } from "./therapeuticYogaPractices/TherapeuticYoga"
+import { TherapeuticYogaProvider } from "./therapeuticYogaPractices/TherapeuticYogaProvider"
+import { TherapeuticYogaList } from "./therapeuticYogaPractices/TherapeuticYogaList"
+import { TherapeuticYogaDetail } from "./therapeuticYogaPractices/TherapeuticYogaDetail"
+
 
 
 export const ApplicationViews = (props) => {
@@ -28,22 +33,32 @@ export const ApplicationViews = (props) => {
                            } />
                 </YogaPoseProvider>
 
-         
+             <YogaPoseProvider>
                 <DailyYogaProvider>
                 <Route path="/daily-yoga">
                     <DailyYogaList />
                 </Route>
-                <Route path="/daily-yoga/:dailyYogaId(\d+)" render={
+                      <Route path="/daily-yoga/:dailyYogaId(\d+)" render={
                       props => {
                 // console.log("props", props)
-                return <DailyYogaDetail {...props} />
+                     return <DailyYogaDetail {...props} />
                     }
-                           } />
+                    } />
                 </DailyYogaProvider>
+                </YogaPoseProvider>
 
+            <TherapeuticYogaProvider>
                 <Route path="/therapeutic-yoga">
-                    {/* <TherapeuticYogaPracticeList /> */}
+                    <TherapeuticYogaList />
                 </Route>
+                <Route path="/therapeutic-yoga/:therapeuticYogaId(\d+)" render={
+                      props => {
+                // console.log("props", props)
+                return <TherapeuticYogaDetail {...props} />
+                    }
+                    } />
+            </TherapeuticYogaProvider>
+
 
             <YogaPoseProvider>
                 <YogaSequenceProvider>
