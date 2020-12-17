@@ -20,8 +20,13 @@ export const YogaSequenceProvider = (props) => {
             },
             body: JSON.stringify(yogaSequence)
         })
-            .then(getYogaSequences)
+        .then((res) => res.json())
+            .then(myYogaSequenceObj => {
+                getYogaSequences()
+                return myYogaSequenceObj
+            })
     }
+    
 
     return (
         <YogaSequenceContext.Provider value={{

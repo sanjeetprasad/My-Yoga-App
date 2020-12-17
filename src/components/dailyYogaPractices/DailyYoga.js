@@ -5,7 +5,7 @@ export const DailyYoga = ({dailyYoga}) => (
      
       
         <>
-          {/* {console.log(yogaPose)} */}
+          
         
           <option key={dailyYoga.id} value = {dailyYoga.id}>
               {dailyYoga.name}
