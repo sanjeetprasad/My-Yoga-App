@@ -17,21 +17,13 @@ export const YogaSequenceList = (props) => {
         getYogaPoses()
     }, [])
 
-    const [SelectyogaPoses, setYogaPose] = useState(0)
+    
     return (
         
         <div className="yogaSequences">
             {/* {console.log(SelectyogaPoses)} */}
             <h1>My Yoga Sequences </h1>
-              <select onChange={(pose) => {
-                setYogaPose(pose.target.value)
-              }}>
-                  <option value = "0"> Choose your yoga pose..</option>
-                  {
-                yogaPoses.map(singlePose => <YogaPose key={singlePose.id} yogaPose={singlePose}/>)
-               }
-          
-           </select>
+        
            
             <button onClick={() => props.history.push("/yoga-sequence/create")}>
                 Make your own sequence...
