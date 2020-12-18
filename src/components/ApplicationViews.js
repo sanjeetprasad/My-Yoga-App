@@ -80,8 +80,7 @@ export const ApplicationViews = (props) => {
     <YogaSequenceProvider>
       <KnowYourMyYogaProvider>
       <Route path="/yoga-dashboard">
-        <h1>My Yoga Dashbord</h1>
-        <h2>All my sequence will save here...</h2>
+       
         <MyYogaDashboardList {...props} />
         </Route>
       </KnowYourMyYogaProvider>
