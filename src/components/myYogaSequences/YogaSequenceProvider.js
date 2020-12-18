@@ -26,11 +26,18 @@ export const YogaSequenceProvider = (props) => {
                 return myYogaSequenceObj
             })
     }
+    const deleteSequence = knowYourMyYogaId => {
+        // console.log(knowYourMyYogaId)
+        return fetch(`http://localhost:8088/myYogaSequences/${knowYourMyYogaId}`, {
+            method: "DELETE"
+        })
+            .then(getYogaSequences)
+    }
     
 
     return (
         <YogaSequenceContext.Provider value={{
-            yogaSequences, addYogaSequence, getYogaSequences
+            yogaSequences, addYogaSequence, getYogaSequences, deleteSequence
         }}>
             {props.children}
         </YogaSequenceContext.Provider>

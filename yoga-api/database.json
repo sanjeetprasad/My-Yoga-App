@@ -520,69 +520,6 @@
       "instructions": "",
       "userId": 1,
       "dailyYogaPracticeId": 1
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-17",
-      "title": "ssss",
-      "dailyYogaPracticeId": 2,
-      "instruction": "ssss",
-      "dailyYoga": "1",
-      "id": 2
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-17",
-      "title": "dd",
-      "dailyYogaPracticeId": 14,
-      "instruction": "dd",
-      "dailyYoga": "1",
-      "id": 3
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-17",
-      "title": "yy",
-      "dailyYogaPracticeId": 16,
-      "instruction": "y",
-      "dailyYoga": "1",
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-17",
-      "title": "ggggggggg",
-      "dailyYogaPracticeId": 14,
-      "instruction": "dddd",
-      "dailyYoga": "1",
-      "id": 5
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-17",
-      "title": "David",
-      "dailyYogaPracticeId": 16,
-      "instruction": "dddddd",
-      "dailyYoga": "1",
-      "id": 6
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-17",
-      "title": "dddd",
-      "dailyYogaPracticeId": 14,
-      "instruction": "ddd",
-      "dailyYoga": "1",
-      "id": 7
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-17",
-      "title": "Madi sequence",
-      "dailyYogaPracticeId": 24,
-      "instruction": "Lets do it.....",
-      "dailyYoga": "2",
-      "id": 8
     }
   ],
   "knowYourMyYogas": [
@@ -593,83 +530,53 @@
     },
     {
       "myYogaSequenceId": 2,
-      "knowYourYogaPoseId": 4,
+      "knowYourYogaPoseId": 13,
       "id": 2
     },
     {
       "myYogaSequenceId": 2,
-      "knowYourYogaPoseId": 2,
+      "knowYourYogaPoseId": 10,
       "id": 3
     },
     {
-      "myYogaSequenceId": 3,
-      "knowYourYogaPoseId": 10,
+      "myYogaSequenceId": 2,
+      "knowYourYogaPoseId": 14,
       "id": 4
     },
     {
-      "myYogaSequenceId": 3,
+      "myYogaSequenceId": 2,
       "knowYourYogaPoseId": 14,
       "id": 5
     },
     {
-      "myYogaSequenceId": 4,
-      "knowYourYogaPoseId": 16,
+      "myYogaSequenceId": 3,
+      "knowYourYogaPoseId": 5,
       "id": 6
     },
     {
-      "myYogaSequenceId": 5,
-      "knowYourYogaPoseId": 13,
+      "myYogaSequenceId": 3,
+      "knowYourYogaPoseId": 14,
       "id": 7
     },
     {
-      "myYogaSequenceId": 5,
-      "knowYourYogaPoseId": 9,
+      "myYogaSequenceId": 2,
+      "knowYourYogaPoseId": 14,
       "id": 8
     },
     {
-      "myYogaSequenceId": 5,
-      "knowYourYogaPoseId": 14,
+      "myYogaSequenceId": 2,
+      "knowYourYogaPoseId": 10,
       "id": 9
     },
     {
-      "myYogaSequenceId": 6,
-      "knowYourYogaPoseId": 14,
+      "myYogaSequenceId": 3,
+      "knowYourYogaPoseId": 3,
       "id": 10
     },
     {
-      "myYogaSequenceId": 7,
-      "knowYourYogaPoseId": 13,
+      "myYogaSequenceId": 3,
+      "knowYourYogaPoseId": 11,
       "id": 11
-    },
-    {
-      "myYogaSequenceId": 7,
-      "knowYourYogaPoseId": 14,
-      "id": 12
-    },
-    {
-      "myYogaSequenceId": 8,
-      "knowYourYogaPoseId": 14,
-      "id": 13
-    },
-    {
-      "myYogaSequenceId": 8,
-      "knowYourYogaPoseId": 3,
-      "id": 14
-    },
-    {
-      "myYogaSequenceId": 8,
-      "knowYourYogaPoseId": 47,
-      "id": 15
-    },
-    {
-      "myYogaSequenceId": 8,
-      "knowYourYogaPoseId": 45,
-      "id": 16
-    },
-    {
-      "myYogaSequenceId": 8,
-      "knowYourYogaPoseId": 24,
-      "id": 17
     }
   ],
   "knowYourTherapeuticYogas": [

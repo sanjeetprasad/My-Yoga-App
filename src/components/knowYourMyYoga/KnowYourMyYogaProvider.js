@@ -25,9 +25,12 @@ export const KnowYourMyYogaProvider = (props) => {
       
     }
 
+ 
+
+
     return (
         <KnowYourMyYogaContext.Provider value={{
-            knowYourMyYogas, addKnowYourMyYoga, getKnowYourMyYogas
+            knowYourMyYogas, addKnowYourMyYoga, getKnowYourMyYogas 
         }}>
             {props.children}
         </KnowYourMyYogaContext.Provider>
