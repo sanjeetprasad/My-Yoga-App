@@ -5,7 +5,7 @@ import { Register } from "./auth/Register"
 import { NavBar } from "./nav/NavBar"
 import { ApplicationViews } from "./ApplicationViews"
 import './MyYogaApp.css'
-import { logDOM } from "@testing-library/react"
+// import { logDOM } from "@testing-library/react"
 import Logo from "../mya-loga.png"
 
 export const MyYogaApp = () => (

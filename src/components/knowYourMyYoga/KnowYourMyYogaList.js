@@ -6,9 +6,6 @@ import { YogaPoseContext } from "../knowYourYogaPoses/YogaPoseProvider";
 import { KnowYourMyYoga } from "./KnowYourMyYoga";
 // import "./KnowYourMyYoga.css"
 
-//get the sequences that user has created,
-//get the knowYourMyYogaObj by the sequenceId
-//get the yoga Pose from the yogaPoseid
 
 export const MyYogaDashboardList = (props) => {
   const { yogaPoses, getYogaPoses } = useContext(YogaPoseContext);
@@ -32,56 +29,39 @@ export const MyYogaDashboardList = (props) => {
     // console.log(activeUserSequence)
   }, [yogaSequences]);
 
-  // useEffect(() => {
-  //   const sequenceRelationship = knowYourMyYogas.filter(ky => {
-  //      return yogaSequence.find(ys => ys.id === ky.myYogaSequenceId)
 
-  //   })
-  //   console.log(sequenceRelationship)
-  //   // console.log(knowYourMyYogas)
-  //   const sequenceMade = yogaPoses.filter(sm => {
-  //        return sequenceRelationship.find(ky => sm.id ===ky.knowYourYogaPoseId)
-  //   })
-  //   setRelationship(sequenceMade)
-  //  console.log(sequenceMade)
-  // }, [yogaPoses, knowYourMyYogas])
 
   return (
+    <>
+    <h1>My Yoga Dashboard.</h1>
     <div className="dashboard">
-      <h1>My Yoga Dashboard.</h1>
-      {/* {console.log(yogaSequence)} */}
+      
+      {/* matching the active user yogaSequence Id to the myYogaSequence id */}
       {yogaSequence.map((s) => {
         const sequenceRelationship = knowYourMyYogas.filter((ky) => {
           return s.id === ky.myYogaSequenceId;
         });
-        //  console.log(sequenceRelationship)
-        // console.log(knowYourMyYogas)
-
-        const sequenceMade = yogaPoses.filter((sm) => {
+       
+        // matching the each yoga pose of the sequence to the yoga pose.
+        const sequenceMade = yogaPoses.filter((yp) => {
           return sequenceRelationship.find(
-            (ky) => sm.id === ky.knowYourYogaPoseId
+            (ky) => yp.id === ky.knowYourYogaPoseId
           );
         });
         //  console.log(sequenceMade)
         return (
-          <div className="yogaPose">
-            <KnowYourMyYoga
-              id={yogaSequence.id}
-              key={s.id}
-              knowYourMyYoga={s}
-              yogaPoses={sequenceMade}
+          <div className="dashYogaPose" key={s.id}>
+            <KnowYourMyYoga id={yogaSequence.id}  knowYourMyYoga={s} yogaPoses={sequenceMade}
               props={props}
             />
-
+            
             {/* {console.log(s)} */}
-            <button
-              className="btn--release"
-              onClick={() => {
-                deleteSequence(s.id).then(() => {
-                  // props.history.push("/yoga-dashboard")
-                  setYogaPose([1]);
+            <button className="btn--release" 
+              onClick={() => { deleteSequence(s.id).then(() => {
+                  props.history.push("/yoga-dashboard")
+                  
                 });
-                // console.log("delete button was hit")
+                
               }}
             >
               Detete
@@ -90,5 +70,6 @@ export const MyYogaDashboardList = (props) => {
         );
       })}
     </div>
+    </>
   );
 };

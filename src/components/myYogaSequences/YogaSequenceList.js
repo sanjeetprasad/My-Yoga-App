@@ -21,7 +21,7 @@ export const YogaSequenceList = (props) => {
     return (
         
         <div className="yogaSequences">
-            {/* {console.log(SelectyogaPoses)} */}
+            
             <h1>My Yoga Sequences </h1>
         
            

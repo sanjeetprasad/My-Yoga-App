@@ -9,10 +9,7 @@ import { YogaSequenceForm } from "./myYogaSequences/YogaSequenceForm";
 import { DailyYogaProvider } from "./dailyYogaPractices/DailyYogaProvider";
 import { DailyYogaList } from "./dailyYogaPractices/DailyYogaList";
 import { DailyYogaDetail } from "./dailyYogaPractices/DailyYogaDetail";
-import { TherapeuticYoga } from "./therapeuticYogaPractices/TherapeuticYoga";
-import { TherapeuticYogaProvider } from "./therapeuticYogaPractices/TherapeuticYogaProvider";
-import { TherapeuticYogaList } from "./therapeuticYogaPractices/TherapeuticYogaList";
-import { TherapeuticYogaDetail } from "./therapeuticYogaPractices/TherapeuticYogaDetail";
+
 import { KnowYourMyYogaProvider } from "./knowYourMyYoga/KnowYourMyYogaProvider";
 import {MyYogaDashboardList} from "./knowYourMyYoga/KnowYourMyYogaList"
 
@@ -32,7 +29,7 @@ export const ApplicationViews = (props) => {
         />
       </YogaPoseProvider>
 
-      <YogaPoseProvider>
+      {/* <YogaPoseProvider>
         <DailyYogaProvider>
           <Route path="/daily-yoga">
             <DailyYogaList />
@@ -45,20 +42,9 @@ export const ApplicationViews = (props) => {
             }}
           />
         </DailyYogaProvider>
-      </YogaPoseProvider>
+      </YogaPoseProvider> */}
 
-      <TherapeuticYogaProvider>
-        <Route path="/therapeutic-yoga">
-          <TherapeuticYogaList />
-        </Route>
-        <Route
-          path="/therapeutic-yoga/:therapeuticYogaId(\d+)"
-          render={(props) => {
-            // console.log("props", props)
-            return <TherapeuticYogaDetail {...props} />;
-          }}
-        />
-      </TherapeuticYogaProvider>
+    
 
     <KnowYourMyYogaProvider>
       <DailyYogaProvider>

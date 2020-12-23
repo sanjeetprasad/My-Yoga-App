@@ -32,7 +32,7 @@ export const YogaSequenceForm = (props) => {
   }, []);
 
   const constructNewYogaSequence = () => {
-    const dailyYogaPracticeId = parseInt(yogaPose.current.value);
+    const dailyYogaPracticeId = parseInt(dailyYoga.current.value);
     // const instruction= instructions.current.value
     const currentDate = date.current.value
     const yogaSequenceTitle = title.current.value;
@@ -46,13 +46,11 @@ export const YogaSequenceForm = (props) => {
         title: yogaSequenceTitle,
         dailyYogaPracticeId,
         instruction: instructions.current.value,
-        dailyYoga: dailyYoga.current.value,
+        
       })
       .then(myYogaSequenceObj => {
-        console.log(myYogaSequenceObj) // This is the new sequence that is just created 
-        console.log(selectPose) // This is the array that user select from the form
-        // I need to use myYogaSequenceObj.id with each pose from select pose array and post a new record to the know your my yoga table
-       // hints promise.all 
+        // console.log(myYogaSequenceObj) 
+        // console.log(selectPose)
 
        selectPose.forEach(yogaPose => {
          const sequenceYogaPoseObj = {
@@ -65,7 +63,7 @@ export const YogaSequenceForm = (props) => {
         return myYogaSequenceObj
       })
       .then(() => props.history.push("/yoga-dashboard"))
-    //   .then(res => res.json())
+    
     }
   };
 
@@ -116,7 +114,7 @@ export const YogaSequenceForm = (props) => {
             ))}
           </select>
           {selectPose.map((pose) => (
-            <option key={pose} name="yogaPose" value={pose.id}>{pose.english_name}</option>
+            <option key={pose.id} name="yogaPose" value={pose.id}>{pose.english_name}</option>
           ))}
           <button onClick={evt => {
               const newPose = selectPose.slice()

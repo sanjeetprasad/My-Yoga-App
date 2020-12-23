@@ -28,18 +28,13 @@ export const YogaPoseProvider = (props) => {
     }).then(getYogaPoses);
   };
 
-  // const getYogaPoseById = (id) => {
-  //     return fetch(`http://localhost:8088/knowYourYogaPoses/${ id }`)
 
-  //         .then(res => res.json())
-  // }
-  const getYogaPoseById = (id) =>
-    yogaPoses.find((pose) => pose.id === parseInt(id));
+  const getYogaPoseById = (id) => yogaPoses.find((pose) => pose.id === parseInt(id));
 
   /*
-        You return a context provider which has the
-        `locations` state, the `addLocation` function,
-        and the `getLocation` function as keys. This
+        I return a context provider which has the
+        `yogaPoses` state, the `addYogaPose` function,
+        and the `getYogaPoses` function as keys. This
         allows any child elements to access them.
     */
   return (

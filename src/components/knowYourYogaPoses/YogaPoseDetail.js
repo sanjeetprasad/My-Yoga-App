@@ -1,18 +1,11 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext} from "react"
 import { YogaPoseContext } from "./YogaPoseProvider"
 
 
 export const YogaPoseDetails = ({id}) => {
-    const { yogaPoses, getYogaPoses, getYogaPoseById } = useContext(YogaPoseContext)
+    const { getYogaPoseById } = useContext(YogaPoseContext)
 
-    // const [yogaPose, setYogaPose] = useState({})
-
-    // useEffect(() => {
-    //     const yogaPoseId = parseInt(props.match.params.yogaPoseId)
-    //     console.log(yogaPoseId)
-    //     getYogaPoseById(yogaPoseId)g
-    //         .then(setYogaPose)
-    // }, [])
+  
 
  const yogaPose = getYogaPoseById(id)
 

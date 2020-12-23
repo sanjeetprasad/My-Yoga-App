@@ -1,0 +1,13 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dashYogaPose {
+    flex-basis: 25%;  /* Make each child element the same width */
+    border: 3px solid black;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: violet;
+}
+
