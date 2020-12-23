@@ -1,7 +1,14 @@
 import React, { useState } from "react"
 
+/*
+    The context is imported and used by individual components
+    that need data
+*/
 export const YogaSequenceContext = React.createContext()
 
+/*
+ This component establishes what data can be used.
+ */
 
 export const YogaSequenceProvider = (props) => {
     const [yogaSequences, setYogaSequences] = useState([])
@@ -34,7 +41,12 @@ export const YogaSequenceProvider = (props) => {
             .then(getYogaSequences)
     }
     
-
+       /*
+        I return a context provider which has the
+        `yogaSequences` state, the `addSequence` function,
+        and the `getSequences` and deleteSequence function as keys. This
+        allows any child elements to access them.
+    */
     return (
         <YogaSequenceContext.Provider value={{
             yogaSequences, addYogaSequence, getYogaSequences, deleteSequence

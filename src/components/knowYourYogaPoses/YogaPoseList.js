@@ -1,13 +1,12 @@
 import React, { useContext, useEffect, useState } from "react"
 import { YogaPoseContext } from "./YogaPoseProvider"
 import { YogaPose } from "./YogaPose"
-import {Link} from "react-router-dom"
-
 import "./YogaPose.css"
 import { YogaPoseDetails } from "./YogaPoseDetail"
 
 export const YogaPoseList = () => {
     
+     // This state changes when `getYogaPoses()` is invoked below
     const { yogaPoses, getYogaPoses } = useContext(YogaPoseContext)
     
     useEffect(() => {
@@ -37,6 +36,7 @@ export const YogaPoseList = () => {
         }
         
         </select>
+        {/* providing id as an argument bto the YogaPoseDetail */}
         <YogaPoseDetails id= {yogaPose} />
         </div>
     )

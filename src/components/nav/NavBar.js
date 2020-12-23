@@ -8,12 +8,12 @@ export const NavBar = (props) => {
             <li className="navbar__item active">
                 <Link className="navbar__link" to="/">Know Your Yoga Pose</Link>
             </li>
-            <li className="navbar__item">
+            {/* <li className="navbar__item">
                 <Link className="navbar__link" to="/daily-yoga">Daily Yoga</Link>
-            </li>
-            <li className="navbar__item">
+            </li> */}
+            {/* <li className="navbar__item">
                 <Link className="navbar__link" to="/therapeutic-yoga">Therapeutic Yoga</Link>
-            </li>
+            </li> */}
             <li className="navbar__item">
                 <Link className="navbar__link" to="/yoga-sequence">My Yoga Sequence</Link>
             </li>
@@ -23,3 +23,4 @@ export const NavBar = (props) => {
         </ul>
     )
 }
+
