@@ -29,7 +29,7 @@ export const ApplicationViews = (props) => {
         />
       </YogaPoseProvider>
 
-      {/* <YogaPoseProvider>
+       <YogaPoseProvider>
         <DailyYogaProvider>
           <Route path="/daily-yoga">
             <DailyYogaList />
@@ -42,7 +42,7 @@ export const ApplicationViews = (props) => {
             }}
           />
         </DailyYogaProvider>
-      </YogaPoseProvider> */}
+      </YogaPoseProvider> 
 
     
 

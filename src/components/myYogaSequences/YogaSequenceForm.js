@@ -33,7 +33,6 @@ export const YogaSequenceForm = (props) => {
 
   const constructNewYogaSequence = () => {
     const dailyYogaPracticeId = parseInt(dailyYoga.current.value);
-    // const instruction= instructions.current.value
     const currentDate = date.current.value
     const yogaSequenceTitle = title.current.value;
     if (yogaSequenceTitle === "") {

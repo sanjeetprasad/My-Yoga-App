@@ -5,6 +5,7 @@ import { YogaSequenceContext } from "../myYogaSequences/YogaSequenceProvider";
 import { YogaPoseContext } from "../knowYourYogaPoses/YogaPoseProvider";
 import { KnowYourMyYoga } from "./KnowYourMyYoga";
 // import "./KnowYourMyYoga.css"
+import sun from "./sun-salutation.gif"
 
 
 export const MyYogaDashboardList = (props) => {
@@ -34,6 +35,9 @@ export const MyYogaDashboardList = (props) => {
   return (
     <>
     <h1>My Yoga Dashboard.</h1>
+    <div className="gif">
+      <img src={sun} className= "sunImg" alt="sunSalutation" />
+    </div>
     <div className="dashboard">
       
       {/* matching the active user yogaSequence Id to the myYogaSequence id */}

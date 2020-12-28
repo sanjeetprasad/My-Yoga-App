@@ -29,7 +29,7 @@ export const YogaSequenceList = (props) => {
                 Make your own sequence...
             </button>
     
-            <article className="yogaSequences">
+             {/* <article className="yogaSequences">
                 {
                     yogaSequences.map(yoga => {
                         return <Link key={yoga.id} to={`/yoga-sequence/${yoga.id}`}>
@@ -37,7 +37,8 @@ export const YogaSequenceList = (props) => {
                         </Link>
                     })
                 }
-            </article>
+                
+            </article>  */}
         </div>
     )
     }

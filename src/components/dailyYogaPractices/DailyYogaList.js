@@ -35,7 +35,7 @@ export const DailyYogaList = () => {
     
     
     return (
-        <div className="yogaPoses">
+        <div className="dailyYogaPoses">
             
             <select onChange={(pose) => {
                 setDailyYoga(pose.target.value)
