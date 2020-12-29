@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import  Button  from 'react-bootstrap/Button'
 import "./NavBar.css"
 import Logo from "./logo.png"
 
@@ -22,13 +23,13 @@ export const NavBar = (props) => {
             <li className="navbar__item">
                 <Link className="navbar__link" to="/yoga-dashboard">My Yoga Dashboard</Link>
             </li>
-            <div className="btn_out">
-                <button onClick={() => {
+            <div >
+                <Button className="btn_out" onClick={() => {
                     localStorage.clear();
                     props.history.push("/login")
                 }}>
-                   Log out!
-                </button>
+                   Log out !!!
+                </Button>
             </div>
         </ul>
     )

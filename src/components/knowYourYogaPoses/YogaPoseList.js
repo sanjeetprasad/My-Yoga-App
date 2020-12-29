@@ -24,7 +24,7 @@ export const YogaPoseList = () => {
     return (
         
   <>
-
+       <h2>Know Your Each Yoga Pose</h2>
         <select onChange={(pose) => {
             setYogaPose(pose.target.value)
             // console.log(pose.target[pose.target.options.selectedIndex].label)

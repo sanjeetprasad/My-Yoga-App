@@ -1,6 +1,7 @@
 import React, { useRef } from "react"
 import { Link } from "react-router-dom";
 import "./Login.css"
+import Salutation from "./sun-salutation.jpg"
 
 
 export const Login = props => {
@@ -46,6 +47,7 @@ export const Login = props => {
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
                     <h1>Welcome to My Yoga App</h1>
+                    <img src={Salutation} width="500" height="150" alt="logo" />
                     <h2>Please sign in</h2>
                     <fieldset>
                         <label htmlFor="inputEmail"> Email address </label>

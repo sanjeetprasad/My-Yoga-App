@@ -1,6 +1,10 @@
 .h1, h1 {
     font-size: 2.5rem;
 }
+body {
+    background-color: orange;
+    margin: 1px;
+}
 
 fieldset {
     min-width: 0;

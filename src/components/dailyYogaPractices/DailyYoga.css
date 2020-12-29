@@ -1,6 +1,42 @@
-.dailyYogaPoses {
+/* .dailyYogaPoses {
     border: 5px solid black;
 }
 .dailyYoga {
     border: 5px solid black;
+} */
+
+.dailyYogaPoses {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
 }
+.dailyYogaSelect {
+    background-color: violet;
+	color: black;
+	border: 5px solid black;
+	margin: 1rem;
+	padding: 0.5rem;
+    /* flex-basis: 100%; */
+	width: 300px;
+}
+.dailyYogaSelect:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 10px 5px rgba(51, 20, 100, 0.648);
+    color: black;
+}
+
+.img_url_daily {
+    width: 250px;
+}
+
+.img_url_daily:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.648);
+    color: #0b2350;
+}
+/* .daily {
+    flex-direction: row;
+    justify-content: flex-start;
+} */

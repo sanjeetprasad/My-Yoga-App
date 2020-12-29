@@ -21,9 +21,14 @@
     font-size: 20px;
 }
 .btn_out {
-    padding: 30px;
+    background: #fff;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 3px;
+    /* padding: 10px 50px; */
+    text-transform: uppercase;
     
 }
-.logo {
+/* .logo {
     margin: auto;
-}
+} */

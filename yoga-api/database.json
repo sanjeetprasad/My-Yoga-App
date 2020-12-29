@@ -497,38 +497,6 @@
       "dailyYogaPracticeId": 1
     },
     {
-      "userId": 2,
-      "currentDate": "2020-12-24",
-      "title": "uuuuuuuuu",
-      "dailyYogaPracticeId": 1,
-      "instruction": "oo",
-      "id": 2
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-24",
-      "title": "Sequence for Shoulder and neck pain.",
-      "dailyYogaPracticeId": 2,
-      "instruction": "1. Coordinate your breath to the movement. The breath should be a medium to help you create and feel the movement in your spine. This aids neuromuscular reeducation, which enables you to transform dysfunctional movement patterns. 2. Be sure the postures serve you, the practitioner. Rather than master these postures, your goal is to use them as a tool to gain a deeper understanding of what is going on in your body, and then adapt them to create functional change for the better. These poses have value only if they serve you as you’re practicing.",
-      "id": 3
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-24",
-      "title": "Sequence for Back Pain.",
-      "dailyYogaPracticeId": 4,
-      "instruction": "The lower back is a sensitive spot for many people. While there can be a ton of causes of lower back pain, a weak core and poor posture from sitting all day (and consequently shortening the hip muscles that then pull on the lower back) are two really common contributing factors to lower back aches and discomfort. It's always important to figure out what's causing pain so you can address it and prevent it from happening again. But in most situations, doing some gentle yoga can help relieve tightness and give your lower back some relief.",
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-23",
-      "title": "ssss",
-      "dailyYogaPracticeId": 3,
-      "instruction": "fffffffffffff",
-      "id": 5
-    },
-    {
       "userId": 4,
       "currentDate": "2020-12-24",
       "title": "hhhhhhhhhh",
@@ -567,6 +535,30 @@
       "dailyYogaPracticeId": 1,
       "instruction": "oooooooooo",
       "id": 10
+    },
+    {
+      "userId": 2,
+      "currentDate": "2021-01-05",
+      "title": "sequence for workout ",
+      "dailyYogaPracticeId": 3,
+      "instruction": "qqqqqqqqsssssssssrrrrrrrrrrrtttttttttttmmmmmmmmm",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "currentDate": "2020-12-30",
+      "title": "Yoga sequence for workout",
+      "dailyYogaPracticeId": 3,
+      "instruction": "vvvvvvvvvvvvvvvvcccccccccccccccnnnnnnnn",
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "currentDate": "2020-12-29",
+      "title": "Sequence for workout ",
+      "dailyYogaPracticeId": 2,
+      "instruction": "hhhhhhhhhhh",
+      "id": 13
     }
   ],
   "knowYourMyYogas": [
@@ -574,71 +566,6 @@
       "id": 1,
       "myYogaSequenceId": 1,
       "knowYourYogaPoseId": 1
-    },
-    {
-      "myYogaSequenceId": 2,
-      "knowYourYogaPoseId": 9,
-      "id": 2
-    },
-    {
-      "myYogaSequenceId": 2,
-      "knowYourYogaPoseId": 5,
-      "id": 3
-    },
-    {
-      "myYogaSequenceId": 3,
-      "knowYourYogaPoseId": 11,
-      "id": 4
-    },
-    {
-      "myYogaSequenceId": 3,
-      "knowYourYogaPoseId": 14,
-      "id": 5
-    },
-    {
-      "myYogaSequenceId": 3,
-      "knowYourYogaPoseId": 13,
-      "id": 6
-    },
-    {
-      "myYogaSequenceId": 4,
-      "knowYourYogaPoseId": 7,
-      "id": 7
-    },
-    {
-      "myYogaSequenceId": 4,
-      "knowYourYogaPoseId": 11,
-      "id": 8
-    },
-    {
-      "myYogaSequenceId": 4,
-      "knowYourYogaPoseId": 15,
-      "id": 9
-    },
-    {
-      "myYogaSequenceId": 4,
-      "knowYourYogaPoseId": 46,
-      "id": 10
-    },
-    {
-      "myYogaSequenceId": 5,
-      "knowYourYogaPoseId": 4,
-      "id": 11
-    },
-    {
-      "myYogaSequenceId": 5,
-      "knowYourYogaPoseId": 7,
-      "id": 12
-    },
-    {
-      "myYogaSequenceId": 5,
-      "knowYourYogaPoseId": 10,
-      "id": 13
-    },
-    {
-      "myYogaSequenceId": 5,
-      "knowYourYogaPoseId": 6,
-      "id": 14
     },
     {
       "myYogaSequenceId": 6,
@@ -729,6 +656,76 @@
       "myYogaSequenceId": 10,
       "knowYourYogaPoseId": 15,
       "id": 32
+    },
+    {
+      "myYogaSequenceId": 11,
+      "knowYourYogaPoseId": 8,
+      "id": 33
+    },
+    {
+      "myYogaSequenceId": 11,
+      "knowYourYogaPoseId": 7,
+      "id": 34
+    },
+    {
+      "myYogaSequenceId": 11,
+      "knowYourYogaPoseId": 9,
+      "id": 35
+    },
+    {
+      "myYogaSequenceId": 11,
+      "knowYourYogaPoseId": 3,
+      "id": 36
+    },
+    {
+      "myYogaSequenceId": 11,
+      "knowYourYogaPoseId": 5,
+      "id": 37
+    },
+    {
+      "myYogaSequenceId": 11,
+      "knowYourYogaPoseId": 10,
+      "id": 38
+    },
+    {
+      "myYogaSequenceId": 12,
+      "knowYourYogaPoseId": 17,
+      "id": 39
+    },
+    {
+      "myYogaSequenceId": 12,
+      "knowYourYogaPoseId": 14,
+      "id": 40
+    },
+    {
+      "myYogaSequenceId": 12,
+      "knowYourYogaPoseId": 18,
+      "id": 41
+    },
+    {
+      "myYogaSequenceId": 12,
+      "knowYourYogaPoseId": 9,
+      "id": 42
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 16,
+      "id": 43
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 10,
+      "id": 44
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 6,
+      "id": 45
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 4,
+      "id": 46
     }
   ]
 }

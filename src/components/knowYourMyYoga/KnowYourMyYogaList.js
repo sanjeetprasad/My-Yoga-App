@@ -68,7 +68,7 @@ export const MyYogaDashboardList = (props) => {
                 
               }}
             >
-              Detete
+              Delete
             </button>
           </div>
         );
