@@ -521,36 +521,20 @@
       "id": 8
     },
     {
-      "userId": 2,
-      "currentDate": "2020-12-25",
-      "title": "Yoga sequence for Yoga Nidra",
-      "dailyYogaPracticeId": 1,
-      "instruction": "hhhhhhhhhhhhhhh",
-      "id": 9
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-27",
-      "title": "mmmmmmmmmmm",
-      "dailyYogaPracticeId": 1,
-      "instruction": "oooooooooo",
-      "id": 10
-    },
-    {
-      "userId": 2,
-      "currentDate": "2021-01-05",
-      "title": "sequence for workout ",
-      "dailyYogaPracticeId": 3,
-      "instruction": "qqqqqqqqsssssssssrrrrrrrrrrrtttttttttttmmmmmmmmm",
-      "id": 11
-    },
-    {
       "userId": 3,
       "currentDate": "2020-12-29",
       "title": "Sequence for workout ",
       "dailyYogaPracticeId": 2,
       "instruction": "hhhhhhhhhhh",
       "id": 13
+    },
+    {
+      "userId": 2,
+      "currentDate": "2021-01-04",
+      "title": "sequence for core workout.",
+      "dailyYogaPracticeId": 2,
+      "instruction": "1. Centering and grounding to bring students into the space\n2. Warm-up postures (which may be gentle floor postures or could include sun salutations! The purpose here is to awaken the body)\n3.Standing and strengthening postures (this is where you’ll find the maximum effort postures like Warrior II and III)\n4. Backbending postures\n5. Hip opening postures\n6. Cooldown postures (Gentle stretches to wind down)\n7. Savasana",
+      "id": 14
     }
   ],
   "knowYourMyYogas": [
@@ -605,81 +589,6 @@
       "id": 23
     },
     {
-      "myYogaSequenceId": 9,
-      "knowYourYogaPoseId": 18,
-      "id": 24
-    },
-    {
-      "myYogaSequenceId": 9,
-      "knowYourYogaPoseId": 16,
-      "id": 25
-    },
-    {
-      "myYogaSequenceId": 9,
-      "knowYourYogaPoseId": 14,
-      "id": 26
-    },
-    {
-      "myYogaSequenceId": 10,
-      "knowYourYogaPoseId": 16,
-      "id": 27
-    },
-    {
-      "myYogaSequenceId": 10,
-      "knowYourYogaPoseId": 8,
-      "id": 28
-    },
-    {
-      "myYogaSequenceId": 10,
-      "knowYourYogaPoseId": 3,
-      "id": 29
-    },
-    {
-      "myYogaSequenceId": 10,
-      "knowYourYogaPoseId": 7,
-      "id": 30
-    },
-    {
-      "myYogaSequenceId": 10,
-      "knowYourYogaPoseId": 5,
-      "id": 31
-    },
-    {
-      "myYogaSequenceId": 10,
-      "knowYourYogaPoseId": 15,
-      "id": 32
-    },
-    {
-      "myYogaSequenceId": 11,
-      "knowYourYogaPoseId": 8,
-      "id": 33
-    },
-    {
-      "myYogaSequenceId": 11,
-      "knowYourYogaPoseId": 7,
-      "id": 34
-    },
-    {
-      "myYogaSequenceId": 11,
-      "knowYourYogaPoseId": 9,
-      "id": 35
-    },
-    {
-      "myYogaSequenceId": 11,
-      "knowYourYogaPoseId": 3,
-      "id": 36
-    },
-    {
-      "myYogaSequenceId": 11,
-      "knowYourYogaPoseId": 5,
-      "id": 37
-    },
-    {
-      "myYogaSequenceId": 11,
-      "knowYourYogaPoseId": 10,
-      "id": 38
-    },
-    {
       "myYogaSequenceId": 13,
       "knowYourYogaPoseId": 16,
       "id": 43
@@ -698,6 +607,26 @@
       "myYogaSequenceId": 13,
       "knowYourYogaPoseId": 4,
       "id": 46
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 6,
+      "id": 47
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 8,
+      "id": 48
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 10,
+      "id": 49
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 10,
+      "id": 50
     }
   ]
 }
