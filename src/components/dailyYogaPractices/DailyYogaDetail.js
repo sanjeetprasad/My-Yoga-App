@@ -14,7 +14,7 @@ export const DailyYogaDetail = ({id}) => {
     return (
         <section className="dailyYoga">
             <h3 className="dailyYoga__name">Daily Yoga Name: {dailyYoga.name}</h3>
-            <p className="instruction">Instruction: {dailyYoga.instruction}</p>
+            <p className="instruction"><text style={{fontWeight: "bold"}}>Instruction:</text> {dailyYoga.instruction}</p>
          
          </section>
 

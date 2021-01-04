@@ -22,23 +22,31 @@ export const YogaPoseList = () => {
     const [yogaPose, setYogaPose] = useState(0)
 
     return (
+        
+  <>
+       <h2>Know Your Each Yoga Pose</h2>
+        <select onChange={(pose) => {
+            setYogaPose(pose.target.value)
+            // console.log(pose.target[pose.target.options.selectedIndex].label)
+
+         }} style={{flexBasis: "100%", border: "1px solid black"}}> 
+        <option value = "0">Please choose your Yoga Pose...</option>
+
+    {
+        yogaPoses.map(singlePose => <YogaPose key={singlePose.id} yogaPose={singlePose}/>)
+    }
+    
+    </select>
         <div className="yogaPoses">
             
-            <select onChange={(pose) => {
-                setYogaPose(pose.target.value)
-                // console.log(pose.target[pose.target.options.selectedIndex].label)
-
-             }}>
-            <option value = "0">Please choose your Yoga Pose...</option>
-
-        {
-            yogaPoses.map(singlePose => <YogaPose key={singlePose.id} yogaPose={singlePose}/>)
-        }
-        
-        </select>
+     
         {/* providing id as an argument bto the YogaPoseDetail */}
         <YogaPoseDetails id= {yogaPose} />
+        
         </div>
+        </>
+        
+        
     )
 }
 

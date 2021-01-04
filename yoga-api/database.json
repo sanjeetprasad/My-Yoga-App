@@ -451,6 +451,18 @@
       "password": "123456",
       "name": "veda prasad",
       "id": 3
+    },
+    {
+      "email": "bali@gmail.com",
+      "password": "123456",
+      "name": "bali lal",
+      "id": 4
+    },
+    {
+      "email": "lala@gmail.com",
+      "password": "123456",
+      "name": "Laljeet Prasad",
+      "id": 5
     }
   ],
   "dailyYogaPractices": [
@@ -485,28 +497,44 @@
       "dailyYogaPracticeId": 1
     },
     {
-      "userId": 2,
+      "userId": 4,
       "currentDate": "2020-12-24",
-      "title": "uuuuuuuuu",
-      "dailyYogaPracticeId": 1,
-      "instruction": "oo",
-      "id": 2
-    },
-    {
-      "userId": 2,
-      "currentDate": "2020-12-24",
-      "title": "Sequence for Shoulder and neck pain.",
+      "title": "hhhhhhhhhh",
       "dailyYogaPracticeId": 2,
-      "instruction": "1. Coordinate your breath to the movement. The breath should be a medium to help you create and feel the movement in your spine. This aids neuromuscular reeducation, which enables you to transform dysfunctional movement patterns. 2. Be sure the postures serve you, the practitioner. Rather than master these postures, your goal is to use them as a tool to gain a deeper understanding of what is going on in your body, and then adapt them to create functional change for the better. These poses have value only if they serve you as you’re practicing.",
-      "id": 3
+      "instruction": "ggggggggggg",
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "currentDate": "2020-12-23",
+      "title": "kkkkkkkkkk",
+      "dailyYogaPracticeId": 1,
+      "instruction": "bbbbbbbb",
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "currentDate": "2020-12-24",
+      "title": "xxxxx",
+      "dailyYogaPracticeId": 1,
+      "instruction": "xxxxxxxx",
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "currentDate": "2020-12-29",
+      "title": "Sequence for workout ",
+      "dailyYogaPracticeId": 2,
+      "instruction": "hhhhhhhhhhh",
+      "id": 13
     },
     {
       "userId": 2,
-      "currentDate": "2020-12-24",
-      "title": "Sequence for Back Pain.",
-      "dailyYogaPracticeId": 4,
-      "instruction": "The lower back is a sensitive spot for many people. While there can be a ton of causes of lower back pain, a weak core and poor posture from sitting all day (and consequently shortening the hip muscles that then pull on the lower back) are two really common contributing factors to lower back aches and discomfort. It's always important to figure out what's causing pain so you can address it and prevent it from happening again. But in most situations, doing some gentle yoga can help relieve tightness and give your lower back some relief.",
-      "id": 4
+      "currentDate": "2021-01-04",
+      "title": "sequence for core workout.",
+      "dailyYogaPracticeId": 2,
+      "instruction": "1. Centering and grounding to bring students into the space\n2. Warm-up postures (which may be gentle floor postures or could include sun salutations! The purpose here is to awaken the body)\n3.Standing and strengthening postures (this is where you’ll find the maximum effort postures like Warrior II and III)\n4. Backbending postures\n5. Hip opening postures\n6. Cooldown postures (Gentle stretches to wind down)\n7. Savasana",
+      "id": 14
     }
   ],
   "knowYourMyYogas": [
@@ -516,49 +544,89 @@
       "knowYourYogaPoseId": 1
     },
     {
-      "myYogaSequenceId": 2,
-      "knowYourYogaPoseId": 9,
-      "id": 2
-    },
-    {
-      "myYogaSequenceId": 2,
-      "knowYourYogaPoseId": 5,
-      "id": 3
-    },
-    {
-      "myYogaSequenceId": 3,
-      "knowYourYogaPoseId": 11,
-      "id": 4
-    },
-    {
-      "myYogaSequenceId": 3,
-      "knowYourYogaPoseId": 14,
-      "id": 5
-    },
-    {
-      "myYogaSequenceId": 3,
+      "myYogaSequenceId": 6,
       "knowYourYogaPoseId": 13,
-      "id": 6
+      "id": 15
     },
     {
-      "myYogaSequenceId": 4,
+      "myYogaSequenceId": 6,
+      "knowYourYogaPoseId": 6,
+      "id": 16
+    },
+    {
+      "myYogaSequenceId": 6,
+      "knowYourYogaPoseId": 13,
+      "id": 17
+    },
+    {
+      "myYogaSequenceId": 7,
+      "knowYourYogaPoseId": 10,
+      "id": 18
+    },
+    {
+      "myYogaSequenceId": 7,
       "knowYourYogaPoseId": 7,
-      "id": 7
+      "id": 19
     },
     {
-      "myYogaSequenceId": 4,
-      "knowYourYogaPoseId": 11,
-      "id": 8
+      "myYogaSequenceId": 7,
+      "knowYourYogaPoseId": 14,
+      "id": 20
     },
     {
-      "myYogaSequenceId": 4,
+      "myYogaSequenceId": 8,
       "knowYourYogaPoseId": 15,
-      "id": 9
+      "id": 21
     },
     {
-      "myYogaSequenceId": 4,
-      "knowYourYogaPoseId": 46,
-      "id": 10
+      "myYogaSequenceId": 8,
+      "knowYourYogaPoseId": 13,
+      "id": 22
+    },
+    {
+      "myYogaSequenceId": 8,
+      "knowYourYogaPoseId": 6,
+      "id": 23
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 16,
+      "id": 43
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 10,
+      "id": 44
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 6,
+      "id": 45
+    },
+    {
+      "myYogaSequenceId": 13,
+      "knowYourYogaPoseId": 4,
+      "id": 46
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 6,
+      "id": 47
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 8,
+      "id": 48
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 10,
+      "id": 49
+    },
+    {
+      "myYogaSequenceId": 14,
+      "knowYourYogaPoseId": 10,
+      "id": 50
     }
   ]
 }

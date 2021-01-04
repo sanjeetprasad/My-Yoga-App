@@ -33,7 +33,6 @@ export const YogaSequenceForm = (props) => {
 
   const constructNewYogaSequence = () => {
     const dailyYogaPracticeId = parseInt(dailyYoga.current.value);
-    // const instruction= instructions.current.value
     const currentDate = date.current.value
     const yogaSequenceTitle = title.current.value;
     if (yogaSequenceTitle === "") {
@@ -148,15 +147,21 @@ export const YogaSequenceForm = (props) => {
         <div className="form-group">
           <label htmlFor="yogaSequenceInstructions">
             Yoga Sequence Instructions:{" "}
+           
           </label>
-          <input
+          <textarea
             type="text"
             id="yogaSequenceInstructions"
             ref={instructions}
             required
             autoFocus
-            className="form-control"
+            className="form-control-inst"
             placeholder="Yoga Sequence Instruction "
+            // style={{width: "900px", height: "100px"}}
+            // multiline={true}
+            rows="8"
+            cols="130"
+           
           />
         </div>
       </fieldset>

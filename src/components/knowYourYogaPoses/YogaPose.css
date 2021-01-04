@@ -2,19 +2,24 @@
  display: flex;
  flex-wrap: wrap;
 }
-.yogaPose {
+.mainYogaPose {
     background-color: violet;
 	color: black;
-	border: 1px dotted black;
+	border: 5px solid black;
 	margin: 1rem;
 	padding: 0.5rem;
-    flex-basis: 100%;
-    width: 600px;
+    /* flex-basis: 100%; */
+	width: 700px;
+
 }
 
 .img_url {
 	width: 500px;
 }
-/* .description {
-	font-size: 10px;
-} */
+
+.img_url:hover {
+	position: relative;
+    bottom: 5px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.648);
+    color: #0b2350;
+}
