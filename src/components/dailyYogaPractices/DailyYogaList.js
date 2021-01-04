@@ -13,7 +13,7 @@ export const DailyYogaList = () => {
     const {yogaPoses, getYogaPoses, } = useContext(YogaPoseContext)
 
 
-    const dailyYogaSequence = [ [2, 7, 15, 20], [1, 18, 21, 25, 30, 35], [3, 10, 14, 27, 37, 40, 47], [5, 9, 19, 23, 29, 32, 39, 17] ]
+    const dailyYogaSequence = [ [2, 7, 15, 20], [1, 18, 21, 25, 30, 35], [10, 3, 14, 27, 37, 40, 47], [5, 9, 19, 23, 29, 32, 39, 17] ]
   
 
     const [dailyYoga, setDailyYoga] = useState(0)

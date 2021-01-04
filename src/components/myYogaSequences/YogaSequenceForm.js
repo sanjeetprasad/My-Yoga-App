@@ -147,15 +147,21 @@ export const YogaSequenceForm = (props) => {
         <div className="form-group">
           <label htmlFor="yogaSequenceInstructions">
             Yoga Sequence Instructions:{" "}
+           
           </label>
-          <input
+          <textarea
             type="text"
             id="yogaSequenceInstructions"
             ref={instructions}
             required
             autoFocus
-            className="form-control"
+            className="form-control-inst"
             placeholder="Yoga Sequence Instruction "
+            // style={{width: "900px", height: "100px"}}
+            // multiline={true}
+            rows="8"
+            cols="130"
+           
           />
         </div>
       </fieldset>

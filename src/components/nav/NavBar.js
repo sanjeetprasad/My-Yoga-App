@@ -28,7 +28,7 @@ export const NavBar = (props) => {
                     localStorage.clear();
                     props.history.push("/login")
                 }}>
-                   Log out !!!
+                   Logout 
                 </Button>
             </div>
         </ul>
